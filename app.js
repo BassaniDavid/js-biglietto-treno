@@ -1,5 +1,3 @@
-console.log("il codice darà NaN finchè non si inseriranno i campi")
-
 const nameSurname = "nome cognome"
 
 const totalKm = "numero km"
@@ -8,6 +6,12 @@ const costKm = 0.21
 
 const age = "età"
 
+if (isNaN(totalKm)){
+    alert("per favore, inserisci un numero di km valido")
+}
+if (isNaN(age)){
+    alert("per favore, inserisci un età valida")
+}
 
 if (age < 18 ){
     let totalCost = (totalKm * costKm) / 100 * 80

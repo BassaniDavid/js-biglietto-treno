@@ -5,6 +5,7 @@ procedimento:
 1 chiedo nome e cognome e li assegno ad una variabile
 2 chiedo il numero di km e li assegno
 3 chiedo l'età e la assegno
+4 controllo se i km e l età è effettivamente un numero altrimenti chiedo modifiche
 4 calcolo il costo:
     se l'età è minore di 18 anni applico il 20%
     se è maggiore di 65 applico il 40%
