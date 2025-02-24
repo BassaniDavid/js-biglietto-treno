@@ -1,5 +1,12 @@
 const nameSurname = "nome cognome"
 
+const nameSurname2 = "nome cognome"
+
+if(nameSurname === nameSurname2){
+    alert("per favore, inserisci il tuo nome e cognome")
+
+}
+
 const totalKm = "numero km"
 
 const costKm = 0.21
