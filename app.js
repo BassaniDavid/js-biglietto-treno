@@ -4,11 +4,11 @@ if (nameSurname == null){
     alert("per favore, inserire un nome e cognome")
 };
 
-let totalKm = prompt("per favore, inserisci il numero di km");
+let totalKm = parseFloat(prompt("per favore, inserisci il numero di km"));
 
 const costKm = 0.21;
 
-let age = prompt("per favore, inserisci l'età");
+let age = parseInt(prompt("per favore, inserisci l'età"));
 
 if (isNaN(totalKm)){
     alert("per favore, inserisci un numero di km valido")
@@ -31,4 +31,4 @@ else{
     let totalCost = (totalKm * costKm)
     console.log( nameSurname + " il costo del tuo biglietto è " + totalCost.toFixed(2) + " €")
     alert( nameSurname + " il costo del tuo biglietto è " + totalCost.toFixed(2) + " €")
-}
+};
